@@ -28,7 +28,6 @@ test_x = test.drop(["quality"], axis=1)
 train_y = train[["quality"]]
 test_y = test[["quality"]]
 
-
 # Define hyperparameters for the Elastic Net model
 alpha = 0.5
 l1_ratio = 0.5
